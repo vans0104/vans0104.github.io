@@ -12,6 +12,10 @@ h1, footer{
     color: antiquewhite;
     background-color: darksalmon;
 }
+/* remolving bullets */
+nav ul li{
+    list-style-type: none;
+}
 /* adding class of site title */
 white-text{
     color: antiquewhite;
@@ -23,6 +27,33 @@ h2, ul, li{
     list-style-type: square;
 }
 /* nth-child selectors - even/odd */
-hobbies ul, li:nth-child(odd){
-    background-color: #d5836c;
-} 
+/* Select the odd list items within the .hobby-list */
+.hobbies-list :nth-child(odd) {
+    background-color: hsl(13, 36%, 63%); 
+  }
+
+/* pseudo classes */
+/* Styling the navigation */
+nav ul a,
+nav ul a:link,
+na ul a:visited {
+    background-color: hsl(13, 36%, 63%);
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: -2px 2px 4px 2px black; 
+    text-decoration: none;
+}
+/* add class of current to HTML home link after adding hover and focus */
+nav ul .current,
+nav ul a:hover,
+nav ul a:focus {
+   text-decoration: underline;
+   color: antiquewhite;
+}
+/* styling the image */
+#my-image{
+    background-color: darksalmon;
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: 0px 0px 2px 1px black;
+}
+ 
+
