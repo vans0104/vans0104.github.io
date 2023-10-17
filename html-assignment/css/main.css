@@ -18,6 +18,11 @@ white-text{
 }
 /* selecting child elements */
 /* removing bullets from hobbies and making then squares */
-h2 ul li{
+h2, ul, li{
     list-style: none;
+    list-style-type: square;
 }
+/* nth-child selectors - even/odd */
+hobbies ul, li:nth-child(odd){
+    background-color: #d5836c;
+} 
