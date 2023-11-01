@@ -222,5 +222,9 @@ body footer {
 }
 
 main, h3{
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+footer{
+    text-align: right;
 }
