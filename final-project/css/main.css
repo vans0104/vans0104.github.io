@@ -14,15 +14,31 @@ nav ul{
     list-style: none;
 }
 
+img{
+    padding: 2%;
+}
+
 .topnav ul li {
 display: inline-block;
-color: #ffe6ac;
+color: #c78c06;
 width: 100%;
 font-size: 80px;
 text-align: center;
 
 }
 
+.header{
+    background-color: #c78c06; 
+  }
+
+.header img {
+    float: left;
+    width: 600px;
+    height: 600px;
+   padding-left: 2%;
+  }
+
+ 
 
 /* selecting child elements multiple levels */
 
@@ -37,8 +53,42 @@ nav ul li{
     font-size: small;
 }
 
+nav .btn{
+    background-color: #c78c06;
+   
+}
+
 body{
     line-height: 1.5;
+}
+
+.main-banner{
+    float: inline-end;
+    width: 60px;
+    height: 60px;
+   padding: 5%;
+}
+
+main h1{
+    font-size: 300px;
+    padding: 5%;
+    text-align: left;
+}
+
+main p{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 45px;
+}
+
+main nav{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    text-transform: none;
+    text-decoration: none; 
+    font-size: 100px;
 }
 
 *,

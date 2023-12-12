@@ -10,13 +10,17 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="mobile logo">
-
+        <section> 
+        <section class="header">
+        <img src="images/logo.png" alt="mobile logo" id="mobile-logo">
+        </div>
+    </section>
         <nav>
                 <div class="topnav">
                 <ul>
                 <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="">About Us</a></li>
+         
+                <li><a href="connectwithus">About Us</a></li>
                 <li><a href=""></a>Services</li>
                 <li><a href=""></a>Team</li>
                 <li><a href="contact.html"></a>Contact</li>
@@ -26,20 +30,22 @@
             
         </nav>
     </header>
+
     <main>
-        <img src="images/main-banner.jpg" alt="mobile background image">
+        <img src="images/main-banner.jpg" alt="mobile background image" id="main-banner">
         <h1>Welcome To Three Star Media</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tenetur labore inventore provident doloremque et nihil, recusandae perspiciatis esse voluptatem. Repellat repellendus autem quasi eligendi minus ab reprehenderit quod expedita.
         </p>
+        
         <nav>
-            <a href="">Connect with us</a>
+            <a href="" class="btn" target="_blank">Connect with us</a>
         </nav>  
 
-        <div class="container">
+        <div class="container"> </div>
         <!-- about us section wrapper class added for bleeding edge to edge -->
             <section id="about-us" class="wrapper-about">
-                <div class="max-mar about-div">
+                <div class="max-mar about-div"> </div>
                     <img src="images/about-us.jpg" alt="about us page">
                     <div>
                         <h2>About Us</h2>
@@ -55,7 +61,7 @@
          <!-- service section wrapper class added for bleeding edge to edge -->
             <section>
                 <section id="services" class="service-wrapper">
-                <div class="max-mar service-div">
+                <div class="max-mar service-div"> </div>
                     <div>
                         <h2>Services</h2>
                         <img src="images/digital.jpg" alt="services page">
@@ -128,7 +134,7 @@
             </section>
 
            <!-- our team section navigation result -->
-               <section id="our-team-2" class="team wrapper">
+               <section id="team" class="team wrapper">
                     <div>
                         <h3>John Doe</h3>
                         <img src="images/john.jpg" alt="our team page">
@@ -157,17 +163,18 @@
             
             <table>
             <!-- Adding section for contact form -->
-            <section>
                 <h2>Contact Us</h2>
                 <h3>Send us a message</h3>
                 <form action="thanks.html" method="">
 
                     <!-- Adding a form -->
                     <div>
-                        
+                        <li>
+                            <form>
                         <label for="fullname">Your name</label>
                         <input type="text" id="fullname" name="fullname">
-                        
+                </form>
+                        </li>
                     </div>
                     <div>
                         
@@ -184,7 +191,6 @@
                        
                         <button type="button">Send</button>
                 </form>
-                </section>
 
                 <!-- adding table for hours of operation -->
                 <table border>
